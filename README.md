@@ -68,3 +68,59 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# Sudoku Solver
+
+A web-based Sudoku Solver built with ReactJS.
+
+## Features
+
+- 9x9 grid for user input
+- Validate the current Sudoku grid
+- Solve the Sudoku puzzle using a backtracking algorithm
+- Error messages for invalid inputs or unsolvable puzzles
+
+## Installation
+
+1. Clone the repository:
+
+git clone https://github.com/santoshpatil1512/sudoku-solver.git
+
+2. Install dependencies:
+# Sudoku Solver
+
+A web-based Sudoku Solver built with ReactJS.
+
+## Features
+
+- 9x9 grid for user input
+- Validate the current Sudoku grid
+- Solve the Sudoku puzzle using a backtracking algorithm
+- Error messages for invalid inputs or unsolvable puzzles
+
+## Installation
+
+1. Clone the repository:
+
+2. Open your browser and go to `http://localhost:3000` to view the application.
+
+## Validation Logic
+
+- Ensures each row, column, and 3x3 sub-grid contains unique numbers 1-9.
+
+## Solving Algorithm
+
+- Implements a backtracking algorithm to solve the Sudoku puzzle:
+- Searches for an empty cell.
+- Tries all numbers from 1-9 in the empty cell.
+- Recursively solves the grid.
+- Backtracks if no valid number can be placed.
+
+## Additional Notes
+
+- This project is for educational purposes and can be extended with more features like hint systems or improved UI/UX.
+
+## License
+
+This project is open-source and available under the [MIT License](LICENSE).
